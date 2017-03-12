@@ -1,7 +1,7 @@
      @font-face {
          font-family: "Hall Fetica";
            src: 
-             url(../Z_RESOURCE/fonts/Hall Fetica.ttf) ,
+             url(../Z_RESOURCE/fonts/Hall Fetica.ttf),
              url(../Z_RESOURCE/fonts/voez-webfont.woff),
              url(../Z_RESOURCE/fonts/voez-webfont.woff2) ,
              url(../Z_RESOURCE/fonts/voez-webfont.eot);
@@ -31,7 +31,7 @@
            width: 555px;
            border-radius: 20px;
            text-shadow: #99FFCC 0px 0px 10px;
-           text-shadow: #99FFCC 0px 0px 10px 10px;
+           
       }
 
      a {
@@ -53,7 +53,7 @@
      #title{
       color: rgb(72,255,128); 
       text-shadow: rgb(111,242,253) 0px 0px 10px;
-      text-shadow: rgb(111,242,253) 0px 0px 10px 10px;   
+        
       letter-spacing: 3px;      
      }
 

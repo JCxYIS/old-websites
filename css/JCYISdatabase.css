@@ -1,7 +1,7 @@
      @font-face {
          font-family: "Hall Fetica";
            src: 
-             url(../Z_RESOURCE/fonts/Hall Fetica.ttf) ,
+             url(../Z_RESOURCE/fonts/Hall Fetica.ttf),
              url(../Z_RESOURCE/fonts/voez-webfont.woff),
              url(../Z_RESOURCE/fonts/voez-webfont.woff2) ,
              url(../Z_RESOURCE/fonts/voez-webfont.eot);
@@ -14,7 +14,7 @@
          font-family: "Hall Fetica+";
            src: 
              url(../Z_RESOURCE/fonts/JC-HF+.TTF);
-            }
+     }
  
       body {
       
@@ -29,7 +29,7 @@
            width: 555px;
            border-radius: 20px;
            text-shadow: #99FFCC 0px 0px 10px;
-           text-shadow: #99FFCC 0px 0px 10px 10px;
+           
       }
 
      a {
@@ -58,7 +58,7 @@
                letter-spacing: 3px;
                color: white;
                text-shadow: blue 0px 0px 10px;
-               text-shadow: yellow 0px 0px 10px 10px;
+             
               }
 
 
@@ -80,7 +80,7 @@
      #title{
       color: rgb(100,226,255); 
       text-shadow: rgb(111,242,253) 0px 0px 10px;
-      text-shadow: rgb(111,242,253) 0px 0px 10px 10px;   
+       
       font-size:77px;
       letter-spacing: 3px;      
      }
@@ -104,7 +104,7 @@
       line-height: 70px;
       color: rgba(255,255,255,1.0);
       text-shadow: rgb(111,242,253) 0px 0px 10px;
-      text-shadow: rgb(111,242,253) 0px 0px 10px 10px;
+      
       font-size: 30pt;
      }
    
@@ -112,7 +112,7 @@
       line-height: 0px;
       color: rgba(255,255,255,1.0);
       text-shadow: rgb(111,242,253) 0px 0px 10px;
-      text-shadow: rgb(111,242,253) 0px 0px 10px 10px;
+      
       text-align: right;
       font-size: 25pt;
       }
