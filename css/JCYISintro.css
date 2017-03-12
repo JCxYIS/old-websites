@@ -1,0 +1,30 @@
+@font-face {
+         font-family: "Hall Fetica";
+           src: 
+             url(../Z_RESOURCE/fonts/Hall Fetica.ttf),
+             url(../Z_RESOURCE/fonts/voez-webfont.woff),
+             url(../Z_RESOURCE/fonts/voez-webfont.woff2) ,
+             url(../Z_RESOURCE/fonts/voez-webfont.eot);
+             
+         font-family: "Overdose Sunrise";
+           src: local('Overdose Sunrise'),
+              url(../Z_RESOURCE/fonts/overdosesunrise.ttf),
+              url(../Z_RESOURCE/fonts/Overdose Sunrise.otf);
+
+         font-family: "Hall Fetica+";
+           src: 
+             url(../Z_RESOURCE/fonts/JC-HF+.TTF);
+            }
+body{
+	font-family: 'Hall Fetica+';
+}
+
+a{
+	color: black;
+}
+
+.rhombus{
+	-webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+	clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+	text-align:center; 
+}

@@ -1,3 +1,0 @@
-﻿V.20170205 - release on the Net (IP), J.C.★ YIS's database V.7;
-V.20170213 - special file security check added & link from index;
-V.20170225 - new helper---index+

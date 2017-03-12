@@ -2,62 +2,51 @@
 <meta charset="utf-8">
 <html>
 <head>
+	<title>J.C.★YIS::INTRO</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
-	<title>J.C.★YIS::INDEX</title>
-
-	<script type="text/javascript"  src='js/JCYIShelper.js'></script>
+	<link rel="stylesheet" type="text/css" href="css/JCYISintro.css">
 	<script type="text/javascript" src='js/jquery-3.1.1.min.js'></script>
-	<link rel="stylesheet" type="text/css" href="css/JCYIShelper.css">
+	<script type="text/javascript" src='js/JCYISintro.js'></script>
 </head>
 
+<body style="text-align: center;background-image: url('Z_RESOURCE/mac.jpg'); background-repeat:no-repeat; background-attachment:fixed; background-position:left top; background-size: cover;">
 
-<body style="text-align: center;background-image: url('Z_RESOURCE/background-sky.jpg'); background-repeat:no-repeat; background-attachment: fixed; background-position:left top; background-size: cover;">
-
-<yis id="Main">
-
-	<h1 id="title">J.C.★YIS's Website!!</h1><br>
-	<h2 id="current" style="height: 100px">
-		<script type="text/javascript">renew_time()</script>
+<a href="helper.html">
+	<div class="rhombus" style="background-color:red; position: absolute; top: 20%; left:20%; width: 230px; height: 230px">
 		
-		<t id="current_year">...<script>current_year()</script></t><t>年</t>
-		<t id="current_month">...<script>current_month()</script></t><t>月</t>
-		<t id="current_date">...<script>current_date()</script></t><t>日</t>
-		<br>
-		<t id="current_hour">...<script>current_hour()</script></t><t>:</t>
-		<t id="current_min">...<script>current_min()</script></t><t>:</t>
-		<t id="current_sec">...<script>current_sec()</script></t>
-	</h2>
-
-	<br><br>
-
-
-	<div style="font-size: 20px; height: 187px" id="numup"><br>
-	
-		<t id="numupscore" style="height: 40px">
-			000000		
-		</t><br><br>
-		<t>TAP COUNT</t><br>
-		<t id="numuptapcount" style="height: 40px">0</t><br><br>
-		<button id="numupstart" onclick="numupacstart()" style="width: 120px">Automatic Mode</button>
-		
-		<button id="numuppause" onclick="numuppause()" style="display: none; width: 120px">Pause</button>
-		<button id="numuptap" onclick="numuptap()" style="width: 120px; display: inline">TAP!</button>
-		
-
-	<br><br></div>
-
-</yis>
-
-<yis id="Footer">
-	<br><br><a href="database.html">>CLICK ME TO GO TO DATABASE<</a>
-</yis>
-
+		<div class="content" style="font-size: 36px;line-height: 222px">
+			Helper
+		</div>
+	</div>
+</a>
+<a href="database.html">
+	<div class="rhombus" style="background-color:yellow; position: absolute; top: 40%; left:30%; width: 230px; height: 230px">
+		<div class="content" style="font-size: 32px;line-height: 222px">
+			Database
+		</div>
+	</div>
+</a>
+<a href="">
+	<div class="rhombus" style="background-color:green; position: absolute; top: 20%; left:40%; width: 230px; height: 230px">
+		<div class="content" style="font-size: 26px;line-height: 222px">
+			Coming Soon
+		</div>
+	</div>
+</a>
+<a href="">
+	<div class="rhombus" style="background-color:blue; position: absolute; top: 40%; left:50%; width: 230px; height: 230px">
+		<div class="content" style="font-size: 26px;line-height: 222px">
+			Coming Soon
+		</div>
+	</div>
+</a>
+<a href="">
+	<div class="rhombus" style="background-color:purple; position: absolute; top: 20%; left:60%; width: 230px; height: 230px">
+		<div class="content" style="font-size: 26px;line-height: 222px">
+			Coming Soon
+		</div>
+	</div>
+</a>
 
 </body>
-
-<script type="text/javascript">
-	$("div#numup").show("slow");
-</script>
-
- 
 </html>

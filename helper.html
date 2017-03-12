@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+	<title>J.C.★YIS::HELPER</title>
+
+	<script type="text/javascript"  src='js/JCYIShelper.js'></script>
+	<script type="text/javascript" src='js/jquery-3.1.1.min.js'></script>
+	<link rel="stylesheet" type="text/css" href="css/JCYIShelper.css">
+</head>
+
+
+<body style="text-align: center;background-image: url('Z_RESOURCE/background-sky.jpg'); background-repeat:no-repeat; background-attachment: fixed; background-position:left top; background-size: cover;">
+
+<yis id="Main">
+
+	<h1 id="title">J.C.★YIS's Website!!</h1><br>
+	<h2 id="current" style="height: 100px">
+		<script type="text/javascript">renew_time()</script>
+		
+		<t id="current_year">...<script>current_year()</script></t><t>年</t>
+		<t id="current_month">...<script>current_month()</script></t><t>月</t>
+		<t id="current_date">...<script>current_date()</script></t><t>日</t>
+		<br>
+		<t id="current_hour">...<script>current_hour()</script></t><t>:</t>
+		<t id="current_min">...<script>current_min()</script></t><t>:</t>
+		<t id="current_sec">...<script>current_sec()</script></t>
+	</h2>
+
+	<br><br>
+
+
+	<div style="font-size: 20px; height: 187px" id="numup"><br>
+	
+		<t id="numupscore" style="height: 40px">
+			000000		
+		</t><br><br>
+		<t>TAP COUNT</t><br>
+		<t id="numuptapcount" style="height: 40px">0</t><br><br>
+		<button id="numupstart" onclick="numupacstart()" style="width: 120px">Automatic Mode</button>
+		
+		<button id="numuppause" onclick="numuppause()" style="display: none; width: 120px">Pause</button>
+		<button id="numuptap" onclick="numuptap()" style="width: 120px; display: inline">TAP!</button>
+		
+
+	<br><br></div>
+
+</yis>
+
+<yis id="Footer">
+	<br><br><a href="database.html">>CLICK ME TO GO TO DATABASE<</a>
+</yis>
+
+
+</body>
+
+<script type="text/javascript">
+	$("div#numup").show("slow");
+</script>
+
+ 
+</html>
