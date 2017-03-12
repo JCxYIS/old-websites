@@ -1,3 +1,22 @@
+$(window).load(function(){
+        $('#loading').fadeOut(3333);
+        });
+
+$(function(){
+　$(window).load(function(){
+　　$(window).bind('scroll resize', function(){
+　　var $this = $(this);
+　　var $this_Top=$this.scrollTop();
+　　
+　　if($this_Top < 130){
+　　　$('#top-bar').stop().animate({top:"-80px"});
+　　　}
+　　　　if($this_Top > 130){
+　　　　$('#top-bar').stop().animate({top:"0px"});
+　　　 }
+　　}).scroll();
+　});
+});
 
 //ALERT
 	function alert1()
