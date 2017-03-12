@@ -1,15 +1,11 @@
      @font-face {
          font-family: "Hall Fetica";
            src: 
-             url(../Z_RESOURCE/fonts/Hall Fetica.ttf),
-             url(../Z_RESOURCE/fonts/voez-webfont.woff),
-             url(../Z_RESOURCE/fonts/voez-webfont.woff2) ,
-             url(../Z_RESOURCE/fonts/voez-webfont.eot);
+             url(../Z_RESOURCE/fonts/Hall Fetica.ttf);
              
          font-family: "Overdose Sunrise";
            src: 
-              url(../Z_RESOURCE/fonts/overdosesunrise.ttf),
-              url(../Z_RESOURCE/fonts/Overdose Sunrise.otf);
+              url(../Z_RESOURCE/fonts/overdosesunrise.ttf);
 
          font-family: "Hall Fetica+";
            src: 
