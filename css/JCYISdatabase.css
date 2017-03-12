@@ -7,7 +7,7 @@
              url(../Z_RESOURCE/fonts/voez-webfont.eot);
              
          font-family: "Overdose Sunrise";
-           src: local('Overdose Sunrise'),
+           src: 
               url(../Z_RESOURCE/fonts/overdosesunrise.ttf),
               url(../Z_RESOURCE/fonts/Overdose Sunrise.otf);
 
@@ -53,7 +53,7 @@
 
 
      .links{color: rgb(128,255,128);}
-     .subtitle{font-family: "Comic Sans MS";
+     .subtitle{font-family: "Overdose Sunrise";
                font-size: 30pt;
                letter-spacing: 3px;
                color: white;
