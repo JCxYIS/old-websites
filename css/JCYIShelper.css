@@ -1,0 +1,73 @@
+     @font-face {
+         font-family: "Hall Fetica";
+           src: 
+             url(../Z_RESOURCE/fonts/Hall Fetica.ttf) ,
+             url(../Z_RESOURCE/fonts/voez-webfont.woff),
+             url(../Z_RESOURCE/fonts/voez-webfont.woff2) ,
+             url(../Z_RESOURCE/fonts/voez-webfont.eot);
+             
+         font-family: "Overdose Sunrise";
+           src: local('Overdose Sunrise'),
+              url(../Z_RESOURCE/fonts/overdosesunrise.ttf),
+              url(../Z_RESOURCE/fonts/Overdose Sunrise.otf);
+
+         font-family: "Hall Fetica+";
+           src: 
+             url(../Z_RESOURCE/fonts/JC-HF+.TTF);
+            }
+ 
+      body {
+      
+      cursor:url(../Z_RESOURCE/cursors/cur1.ani),url(../Z_RESOURCE/cursors/cur1.gif),auto;
+      font-family: "Hall Fetica+";
+      
+        }
+    
+
+    ul,div{
+            margin:0px auto;
+           text-align: center;
+           background-color:rgba(255,254,255,0.3);
+           width: 555px;
+           border-radius: 20px;
+           text-shadow: #99FFCC 0px 0px 10px;
+           text-shadow: #99FFCC 0px 0px 10px 10px;
+      }
+
+     a {
+         color: rgb(141,255,125);
+         text-decoration:none;
+         cursor:url(../Z_RESOURCE/cursors/ani1136.ani),url(../Z_RESOURCE/cursors/ani1136.gif),auto;
+       }
+
+     a:hover {text-decoration:underline;
+              }
+     h1{font-size: 50pt;}
+     h2{font-size: 36pt;}
+     h3{font-size: 28pt;}
+     h4{font-size: 21pt;}
+     h5{font-size: 15pt;}
+     h6{font-size: 12pt;}
+
+
+     #title{
+      color: rgb(72,255,128); 
+      text-shadow: rgb(111,242,253) 0px 0px 10px;
+      text-shadow: rgb(111,242,253) 0px 0px 10px 10px;   
+      letter-spacing: 3px;      
+     }
+
+     #current{
+      letter-spacing: 10px;
+     }
+
+    #Main{
+      padding-bottom: 100px;
+    }
+    #Footer {
+　     height: 100px;
+　     position: relative;
+　     margin-top: -100px;
+    }
+   
+

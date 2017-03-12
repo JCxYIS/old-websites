@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+	<title>J.C.★YIS::JAVASCRIPT</title>
+	<script type="text/javascript" src="../../js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="img+video_print.js"></script>
+</head>
+<body>
+
+<script type="text/javascript" src="test.js"></script>
+
+	<div id="time">
+		<script type="text/javascript">
+			var first_code="Hello!";
+			document.write("<h1>" + first_code + "</h1>");
+
+			function current_time(){
+				var today=new Date();
+				var nowday = today.getFullYear() + '年' + today.getMonth() + '月' + today.getDate() + '日' ;
+				var hour = today.getHours(); if(hour<10){hour='0'+hour}
+				var min = today.getMinutes();if(min<10){min='0'+min}
+				var sec = today.getSeconds();if(sec<10){sec='0'+sec}
+				var nowtime = hour + ':' + min + ':' + sec;
+
+				document.getElementById("time").innerHTML= nowday + '  ' + nowtime
+				setTimeout(current_time,1000);
+			}
+		</script>
+	<script type="text/javascript">current_time()</script>
+	</div>
+	<div>
+
+		<script type="text/javascript">
+			img_print("x","jpg" , 1,3,87);
+			video_print("v","mp4", 1,3,87);
+		</script>
+	</div>
+
+
+</body>
+</html>

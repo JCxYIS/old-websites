@@ -1,0 +1,179 @@
+<!DOCTYPE html><!--V.20170213，check line 43-->
+<html>
+  <head>
+    <title>J.C.★YIS::Database</title>
+    <link rel="shortcut icon" href="Z_RESOURCE/favicon.ico">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery-3.0+migrate.js"></script>
+    <script src="js/JCYISdatabase.js"></script>
+    <script src="js/clipboard.min.js"></script>
+
+  </head>
+  
+  <link rel="stylesheet" type="text/css" href="css/JCYISdatabase.css">  
+   
+
+  
+
+<!--YEE+-+-+-+-+-+-+-+-+-+-BODY-+-+-+-+-+-+-+-+-+-+YEE-->
+
+<body>
+<!--Background-->
+  <body style="background-image: url('Z_RESOURCE/oracle.png'); background-repeat:no-repeat; background-attachment: fixed; background-position:left top; background-size: cover;">
+
+<!--Loading-->
+  <div id='loading'>
+  <br><br><br><br><br>
+  <img src="Z_RESOURCE/pespi.gif">
+  <br>
+  <font style="color: rgba(255,255,255,1.0); text-shadow: #99FFCC 0px 0px 10px; text-shadow: #99FFCC 0px 0px 10px 10px;"><font face="Hall Fetica+"><font size="200px"><strong>Drinking Pespi...</strong><br><br></font><p>~~建議使用主流瀏覽器開啟~~</p></font></font>
+
+
+   </div>
+
+<!--top bar-->
+   <div id="top-bar">
+
+     <table id="top-bar-title">
+     <tr>
+     <td>~J.C.★YIS's database~</td>
+     <td>&emsp;&emsp;&emsp;</td>
+     <td>20170213</td>
+     </tr>
+   </table></div>
+
+
+
+
+
+
+<!--title-->
+
+   <h1 id="title"><blink>~J.C.★YIS's database~</blink></font></h1>
+
+
+
+<!--Links-->    
+
+  <h2 class="subtitle">
+    Sources:
+  </h2>
+
+    <h3>
+    <ul  class="links" type="circle">
+    <br>
+
+      <li><a href="ftp://infor.org/"; target="_blank";>INFOR FTP</a></li>
+      <li><a href="http://academy.infor.org/index"; target="_blank">INFOR academy log in page</a></li>
+      <li><a href="https://infor.org/"; target="_blank";">INFOR main page</a></li>
+      <li><a href="https://www.codecademy.com/"; target="_blank";>codeacademy</a></li>
+      <li><a href="http://www.w3schools.com/"; target="_blank";>W3SCHOOLS--Program Language Tutorials</a></li>
+      <li><a href="http://materializecss.com/"; target="_blank">Materialize</li>
+      <li><a href="http://openhome.cc"; target="_blank">openhome.cc--中文程式語言教學</a></li>
+      <li><a href="http://join-and-joy.appspot.com/"; target="_blank";>"程式設計合作學習平台"2016-1647</a>ntnuapcs<br></li>  
+      <li><a href="http://tioj.infor.org/"; target="_blank">TIOJ</a></li>
+      <li><a href="http://zerojudge.tw/"; target="_blank">zerojudge</a></li>
+      <br>
+    </ul>
+
+    </h3> 
+
+
+
+
+    <!--Notes-->
+
+    <h2 class="subtitle">
+    Note:
+    </h2>  
+
+    <h3 style="color: rgb(255,243,100);">
+     <ul><br>
+     <li>FILESPACE is below ^~^<br>
+     <a href="Z_FILESPACE" target="_blank">~~~file space~~~</a><br>
+     </li>
+     <br></ul>
+     </h3>
+     <br>
+
+
+
+     <div id="hidden" style="display: none">
+       <h2 class="subtitle">
+        Hidden:
+        <button type="button" onclick="hidehid()">:X</button>
+       </h2>  
+
+        <h3 style="color: rgb(248,71,71);">
+        <ul><br>
+        Hi, this is hidden texts<br>
+        Oh, here's the space of secret file X3<br>
+        <a href="no" target="_blank">~~~secret space~~~</a><br>
+        <br></ul>
+      
+      </h3></div>
+
+    
+  
+    
+ <br><br><br>
+ 
+        <div>
+     <h1 style="color:rgb(225,225,225);size:111px;background-color:rgba(0,128,128,0.8); width:667px;text-shadow: #99FFCC 0px 0px 10px;  text-shadow: #99FFCC 0px 0px 10px 10px;">
+        
+       
+        <img id="pespigif" src="Z_RESOURCE/pespi.gif" style="width: 350px;height: 272px">
+
+        <!--<marquee SCROLLAMOUNT="2px" width="350px"></marquee>-->
+
+        <button type="button" onclick="document.getElementById('pespigif').src='Z_RESOURCE/pespi.gif'">pic1</button>
+        <button type="button" onclick="document.getElementById('pespigif').src='Z_RESOURCE/pespi2.gif'">pic2</button>
+
+        
+
+        <br><font face="Hall Fetica">J.C.★YIS&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;0002017</font>    
+
+         <br><br>
+
+     </div>     
+    </h1>
+   
+
+   
+    <button type="button" onclick="showhid()" style="align-items: right">:O</button>
+    
+    <input type="button" onclick="alert1()" value="Press to ALERT" />
+
+     <p></p>
+      
+  </body>
+
+<script>
+$(window).load(function(){
+        $('#loading').fadeOut(3333);
+        });
+
+$(function(){
+　$(window).load(function(){
+　　$(window).bind('scroll resize', function(){
+　　var $this = $(this);
+　　var $this_Top=$this.scrollTop();
+　　
+　　if($this_Top < 130){
+　　　$('#top-bar').stop().animate({top:"-80px"});
+　　　}
+　　　　if($this_Top > 130){
+　　　　$('#top-bar').stop().animate({top:"0px"});
+　　　 }
+　　}).scroll();
+　});
+});
+
+</script>
+
+
+
+</html>

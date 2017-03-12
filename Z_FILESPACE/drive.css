@@ -1,0 +1,27 @@
+ @font-face {
+         font-family: "Hall Fetica+";
+           src: 
+             url(../../Z_RESOURCE/fonts/JC-HF+.ttf);
+             }
+
+body {
+      font-family: "Hall Fetica+";
+      text-align: center;
+        }
+
+div{
+      background-color:rgba(255,254,255,0.3);
+
+      border-radius: 20px;
+      text-shadow: #99FFCC 0px 0px 10px;
+      text-shadow: #99FFCC 0px 0px 10px 10px;
+      }
+h1{font-size: 50px;}
+
+  #title{
+      color:rgb(100,226,255); 
+      text-shadow: rgb(111,242,253) 0px 0px 10px;
+      text-shadow: rgb(111,242,253) 0px 0px 10px 10px;   
+      
+      letter-spacing: 3px;      
+     }}
