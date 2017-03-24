@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="css/JCYISintro.css">
 	<script type="text/javascript" src='js/jquery-1.6.1.min.js'></script>
 	<script type="text/javascript" src='js/JCYISintro.js'></script>
+
 </head>
 
 <body style="text-align: center;background-image: url('Z_RESOURCE/mac.jpg'); background-repeat:no-repeat; background-attachment:fixed; background-position:left top; background-size: cover;">
@@ -26,21 +27,21 @@
 	</div>
 </a>
 <a href="database.html">
-	<div class="rhombus" style="background-color:yellow; position: absolute; top: 40%; left:30%; width: 230px; height: 230px">
+	<div class="rhombus" name="rhombus" style="background-color:yellow; position: absolute; top: 40%; left:30%; width: 230px; height: 230px">
 		<div class="content" style="font-size: 32px;line-height: 222px">
 			Database
 		</div>
 	</div>
 </a>
 <a href="staggeringbeauty-DRUG!/index.html">
-	<div class="rhombus" style="background-color:green; position: absolute; top: 20%; left:40%; width: 230px; height: 230px">
+	<div class="rhombus" name="rhombus" style="background-color:green; position: absolute; top: 20%; left:40%; width: 230px; height: 230px">
 		<div class="content" style="font-size: 26px;line-height: 222px">
 			DRUG beauty!
 		</div>
 	</div>
 </a>
 <a href="">
-	<div class="rhombus" style="background-color:blue; position: absolute; top: 40%; left:50%; width: 230px; height: 230px">
+	<div class="rhombus" name="rhombus" style="background-color:blue; position: absolute; top: 40%; left:50%; width: 230px; height: 230px">
 		<div class="content" style="font-size: 26px;line-height: 222px">
 			Coming Soon
 		</div>
@@ -54,5 +55,24 @@
 	</div>
 </a>
 
+
+
+<script>
+function adapt_rhombus(){
+	var width = window.innerWidth;
+	var height = window.innerHeight;
+	var size;
+	var cut=3.5;
+	if(width>height){size = height/cut;}
+	else {size = width/cut;}
+	//document.write(size);
+	$(".rhombus").width(size + "px");
+	$(".rhombus").height(size + "px");
+	setTimeout(adapt_rhombus,10);
+}
+
+adapt_rhombus();
+</script>
 </body>
+
 </html>
