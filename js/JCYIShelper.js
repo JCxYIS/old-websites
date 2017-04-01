@@ -10,7 +10,7 @@
 function renew_time(){
     today= new Date();
     year = today.getFullYear() ;
-	month = today.getMonth() ;
+	month = today.getMonth()+1 ;
 	date = today.getDate()  ;
 	hour = today.getHours(); if(hour<10){hour='0'+hour}
 	min = today.getMinutes();if(min<10){min='0'+min}
