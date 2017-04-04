@@ -1,20 +1,26 @@
 @font-face {
-         font-family: "Hall Fetica";
-           src: 
-             url(../Z_RESOURCE/fonts/Hall Fetica.ttf),
-             url(../Z_RESOURCE/fonts/voez-webfont.woff),
-             url(../Z_RESOURCE/fonts/voez-webfont.woff2) ,
-             url(../Z_RESOURCE/fonts/voez-webfont.eot);
+  font-family: "Hall Fetica";
+    src: 
+      url(../Z_RESOURCE/fonts/Hall Fetica.ttf),
+      url(../Z_RESOURCE/fonts/voez-webfont.woff),
+      url(../Z_RESOURCE/fonts/voez-webfont.woff2) ,
+      url(../Z_RESOURCE/fonts/voez-webfont.eot);
              
-         font-family: "Overdose Sunrise";
-           src: local('Overdose Sunrise'),
-              url(../Z_RESOURCE/fonts/overdosesunrise.ttf),
-              url(../Z_RESOURCE/fonts/Overdose Sunrise.otf);
+  font-family: "Overdose Sunrise";
+    src: 
+      local('Overdose Sunrise'),
+      url(../Z_RESOURCE/fonts/overdosesunrise.ttf),
+      url(../Z_RESOURCE/fonts/Overdose Sunrise.otf);
 
-         font-family: "Hall Fetica+";
-           src: 
-             url(../Z_RESOURCE/fonts/JC-HF+.TTF);
-            }
+  font-family: "Hall Fetica+";
+    src: 
+      url(../Z_RESOURCE/fonts/JC-HF+.TTF);
+
+  font-family: "Mario";
+    src:
+      url(../Z_RESOURCE/fonts/New Super Mario Font U.ttf);
+          }
+
 body{
 	font-family: 'Hall Fetica+';
 }
@@ -44,7 +50,8 @@ a{
           position: fixed;
           text-align: center;
           box-shadow: 2px 2px 10px;
-          border-radius: 1px;             
+          border-radius: 1px;   
+          font-family: 'Mario';          
 }
 
 #header{
@@ -54,7 +61,11 @@ a{
   height: 10%;
   width: 99.5%;
   display: none;
-  color: rgb(123,241,158);
-  text-shadow: rgb(111,242,253) 0px 0px 10px;
-  font-size: 50px;
+}
+
+#title{
+     margin-top: 7px;
+     color: rgb(123,241,158);
+     text-shadow: rgb(111,242,253) 0px 0px 10px;
+     font-size: 50px;
 }
