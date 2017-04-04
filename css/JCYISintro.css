@@ -8,7 +8,6 @@
              
   font-family: "Overdose Sunrise";
     src: 
-      local('Overdose Sunrise'),
       url(../Z_RESOURCE/fonts/overdosesunrise.ttf),
       url(../Z_RESOURCE/fonts/Overdose Sunrise.otf);
 
@@ -40,6 +39,7 @@ a{
 
 
 #loading{
+          background: black;
           z-index: 1;
           padding: 10px 10px 5px;
           background: rgb(0, 0, 0);
