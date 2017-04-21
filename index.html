@@ -4,10 +4,10 @@
 <head>
 	<title>J.C.★YIS::INTRO</title>
 	<link rel="shortcut icon" href="Z_RESOURCE/favicon.ico">
-	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
     <meta name="apple-mobile-web-app-capable" content="yes" />
 	<link rel="stylesheet" type="text/css" href="css/JCYISintro.css">
-	<script type="text/javascript" src='js/jquery-1.6.1.min.js'></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 	<script type="text/javascript" src='js/JCYISintro.js'></script>
 
 </head>
@@ -15,7 +15,7 @@
 <body style="text-align: center;background-image: url('Z_RESOURCE/mac.jpg'); background-repeat:no-repeat; background-attachment:fixed; background-position:left top; background-size: cover;">
 
 <div id="loading">
-	<font size="70px" style="color: lightgreen; position:absolute;top:40%;left: 35%;">
+	<font size="70px" style="color: lightgreen; position:absolute;top:40%;left: 35%; font-family: 'Mario';">
 		NOW LOADING...<br> 
 	</font>
 </div>
@@ -25,9 +25,9 @@
 		<nobr>J.C.★YIS's Website!!</nobr>
 	</div>
 
-	<div id="inf" style="position: absolute; right: 0; top: -1px; text-align: right; font-family: 'Hall Fetica'">
+	<div id="inf">
 		<div style="text-align: right;">
-			20170404 V.2.8
+			20170421 V.3.0
 		</div>
 		<div style="text-align: right;">
 			<font id="time">ERROR!?</font>
@@ -36,39 +36,49 @@
 	</div>
 </div>
 
-<div id="first rhombus set position" style="position: absolute; top: 40%; left:42%; width: 0; height: 0; background: rgba(100,100,100,0.0);">	
+<!--
+<div id="footer">
+	<div id="footer_opener">OPEN</div>
+	<div id="footer_body">
+		
+	</div>
+</div>
+-->
+
+
+<div id="set first block position" style="; position: relative; top: 111px; width: 0; height: 0;">	
 	<a href="helper.html">
-		<div class="rhombus" name="0" style="background-color:red; position: relative; width: 230px; height: 230px">	
-			<div class="content" style="font-size: 36px;line-height: 222px">
+		<div name="0" class="block" style="background-color:red;">	
+			<div class="content" style="font-size: 36px;">
 				Helper
 			</div>
 		</div>
 	</a>
 
 	<a href="database.html">
-		<div class="rhombus" name="1" style="background-color:yellow;  margin-top: -360px; margin-left:  130px ; width: 230px; height: 230px">
-			<div class="content" style="font-size: 32px;line-height: 222px">
+		<div name="1" class="block" style="background-color:yellow;">
+			<div class="content" style="font-size: 32px;">
 				Database
 			</div>
 		</div>
 	</a>
 	<a href="DrugBeauty">
-		<div class="rhombus" name="2" style="background-color:green; margin-top: 30px;margin-left: 130px ; width: 230px; height: 230px">
-			<div class="content" style="font-size: 26px;line-height: 222px">
+		<div name="2" class="block" style="background-color:green;">
+			<div class="content" style="font-size: 26px;">
 				DRUG beauty!
 			</div>
 		</div>
 	</a>
 	<a href="GuessNumber">
-		<div class="rhombus" name="3" style="background-color:blue; margin-top: -490px; margin-left:  -130px ; width: 230px; height: 230px">
-			<div class="content" style="font-size: 26px;line-height: 222px">
+		<div name="3" class="block" style="background-color:blue;">
+			<div class="content" style="font-size: 26px;">
 				Guess Number
 			</div>
 		</div>
 	</a>
 	<a href="">
-		<div class="rhombus" name="4" style="background-color:purple; margin-top: 30px; margin-left:  -130px;  width: 230px; height: 230px">
-			<div class="content" style="font-size: 26px;line-height: 222px">
+		<div name="4" class="block" style="background-color:purple;">
+			<div class="content" style="font-size: 26px;">
 				Coming Soon
 			</div>
 		</div>
