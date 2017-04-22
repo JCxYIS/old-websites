@@ -1,19 +1,20 @@
-@font-face {
+@font-face  {
   font-family: 'Hall Fetica';
     src: 
       url(../Z_RESOURCE/fonts/Hall Fetica.ttf),
       url(../Z_RESOURCE/fonts/voez-webfont.woff),
-      url(../Z_RESOURCE/fonts/voez-webfont.woff2) ,
-      url(../Z_RESOURCE/fonts/voez-webfont.eot);}
+      url(../Z_RESOURCE/fonts/voez-webfont.woff2),
+      url(../Z_RESOURCE/fonts/voez-webfont.eot);
+}
              
-@font-face{ 
+@font-face { 
   font-family: 'Overdose Sunrise';
     src: 
       url(../Z_RESOURCE/fonts/overdosesunrise.ttf),
       url(../Z_RESOURCE/fonts/Overdose Sunrise.otf);
 }
 
-@font-face{
+@font-face {
   font-family: 'Hall Fetica+';
     src: 
       url(../Z_RESOURCE/fonts/JC-HF+.TTF);
@@ -26,7 +27,7 @@
 }
 
 body{
-	font-family: 'Hall Fetica+';
+	font-family: 'Hall Fetica', 'Hall Fetica+';
   overflow-x: hidden;
 }
 
@@ -45,16 +46,27 @@ a{
 .block{
    height: 87px; 
    width: 200px;
+   border-radius: 5px;
 }
 
 .content{
-  line-height: 85px
+  line-height: 85px;
+}
+
+.dock{
+   position: relative;
+   top: 0;
+   left: 9.487px;
+   height: 40px; 
+   border-radius: 5px;
+   line-height: 40px;
+   float: left;
 }
 
 
 #loading{
           background: black;
-          z-index: 1;
+          z-index: 9999;
           padding: 10px 10px 5px;
           background: rgb(0, 0, 0);
           left: 0;
@@ -65,7 +77,7 @@ a{
           text-align: center;
           box-shadow: 2px 2px 10px;
           border-radius: 1px;   
-          font-family: 'Mario';          
+          font-family: 'Mario', 'Hall Fetica', 'Hall Fetica';          
 }
 
 #header{
@@ -99,9 +111,9 @@ a{
   position: absolute;
   bottom: 0; 
   right: 0;
-  text-align: right;
   height: 50px;
   width: 50px;
+  line-height: 70px;
   z-index: 2;
 }
 
@@ -109,9 +121,12 @@ a{
   background-color: rgba(255,255,255,0.4);
   position: absolute;
   bottom: 0; 
-  left: -10%;
+  left: 0%;
   height: 50px;
-  width: 111%;
-  z-index: 2;
-  /*display: none;*/
+  width: 100%;
+  z-index: 3;
+  display: none;
+  text-align: left;
+  line-height: 50px;
+  display: none;
 }

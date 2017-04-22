@@ -1,12 +1,22 @@
-$(window).load(function(){
-        load_complete();
-        });
+$(window).load(
+	function(){
+        $('#loading').fadeOut(777);
+		setTimeout(pull_header, 333);
+    }
+);
 
 
-function load_complete(){
-	$('#loading').fadeOut(777);
-	setTimeout(pull_header, 333);
-}
+$('#footer_opener').mouseover(
+	function(){
+		$('#footer_body').slideDown(123);
+	}
+);
+$('#footer_body').mouseout(
+	function(){
+		$('#footer_body').slideToggle(123);
+	}
+);
+
 
 function pull_header(){
 	$(document).ready(function(){
@@ -14,6 +24,7 @@ function pull_header(){
   });	
 }
 
+time();
 function time(){
 	var today=new Date();
 	var hour = today.getHours(); if(hour<10){hour='0'+hour}
