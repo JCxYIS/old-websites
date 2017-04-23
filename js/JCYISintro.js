@@ -4,25 +4,22 @@ $(window).load(
 		setTimeout(pull_header, 333);
     }
 );
+function pull_header(){
+	$(document).ready(function(){
+  		$('#header').slideDown(1234);
+  });	
+}
 
 
-$('#footer_opener').mouseover(
-	function(){
-		$('#footer_body').slideDown(123);
-	}
-);
-$('#footer_body').mouseout(
+
+$('#footer_opener').click(
 	function(){
 		$('#footer_body').slideToggle(123);
 	}
 );
 
 
-function pull_header(){
-	$(document).ready(function(){
-  		$('#header').slideDown(1234);
-  });	
-}
+
 
 time();
 function time(){
