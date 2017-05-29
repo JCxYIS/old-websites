@@ -1,3 +1,5 @@
 20170421 V.3.0 = Block Shape=> rectangle
 20170422 V.3.1 = Added: footer
 20170423 V.3.2 = Footer activate => onclick
+20170427 V.3.2a = Fixed: font bug
+20170529 V.3.2b = Fixed: icon bug
